@@ -1,0 +1,16 @@
+{
+  "name": "discord-msgfwd",
+  "version": "1.0.0",
+  "description": "Forwards messages from server-channels to another servers channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.6.4",
+    "fs": "0.0.1-security"
+  }
+}
