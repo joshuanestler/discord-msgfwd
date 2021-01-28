@@ -18,7 +18,7 @@ You need to set the parameters in `config.json`:
   - `dstChannel` is the channel ID of the channel to which the messages should be forwarded _(text-channels only)_
   - `minLength` defines the minimum length a message should have to be forwarded _(set to 0 to disable)_
   - `maxLength` defines the maximum length a message should have to be forwarded _(set to 0 to disable)_
-  - `hasAttachments` lets the bot only forward the messages if they have attachments
+  - `hasAttachments` lets the bot only forward messages if they have attachments
 
 ## Installing the bot
 
@@ -26,7 +26,7 @@ You need to set the parameters in `config.json`:
 
 Make sure you have installed `docker` and `docker-compose`.
 
-#### If you have `docker-compose`:
+#### If you have `docker-compose`
 
 Just run
 
@@ -34,7 +34,7 @@ Just run
 docker-compose up --build
 ```
 
-#### If you don't use `docker-compose`:
+#### If you don't use `docker-compose`
 
 Build the docker container with
 
@@ -55,7 +55,6 @@ Make sure that you have `npm` installed.
 - Navigate to the project folder
 - Run
   ```sh
-  npm install discord.js@11.6.4
-  npm install --production
+  npm install
   npm start
   ```

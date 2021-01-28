@@ -7,10 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "",
+  "author": "Joshua Nestler",
+  "repository": "https://github.com/joshuanestler/discord-msgfwd",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.6.4",
-    "fs": "0.0.1-security"
+    "@discordjs/uws": "^10.149.0",
+    "discord.js": "^11.6.4"
   }
 }

@@ -11,7 +11,7 @@ client.once('ready', () => {
 client.login(config.token);
 
 client.on('message', message => {
-    // Check if message is PN
+    // Check if message is DM
     if (message.guild == null) return;
 
     // Check all elements in forward

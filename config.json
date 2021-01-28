@@ -9,6 +9,15 @@
             "minLength": 0,
             "maxLength": 0,
             "hasAttachments": false
+        },
+        {
+            "srcServer": "##################",
+            "srcChannel": "##################",
+            "dstServer": "##################",
+            "dstChannel": "##################",
+            "minLength": 0,
+            "maxLength": 0,
+            "hasAttachments": false
         }
     ]
 }
