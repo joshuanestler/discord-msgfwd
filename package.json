@@ -1,6 +1,6 @@
 {
   "name": "discord-msgfwd",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Forwards messages from server-channels to another servers channel",
   "main": "index.js",
   "scripts": {
