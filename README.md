@@ -55,6 +55,6 @@ Make sure that you have `npm` installed.
 - Navigate to the project folder
 - Run
   ```sh
-  npm install
+  npm install --production
   npm start
   ```
